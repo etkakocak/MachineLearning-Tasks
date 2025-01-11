@@ -30,5 +30,10 @@ The file: ``task3main/various_kernels.py``
 This code implements Support Vector Machine (SVM) classification using different kernel functions: Linear, Radial Basis Function (RBF), and Polynomial kernels. The model is trained on a dataset and optimized using GridSearchCV to find the best hyperparameters for each kernel type. The best-performing models are evaluated on a validation set using accuracy metrics. This exercise demonstrates the impact of kernel selection on SVM performance and highlights the role of hyperparameter tuning in classification tasks. 
 
 ### Exercise 4 - One versus all MNIST
-This Jupyter Notebook contains Exercise 4, focusing on Machine Learning techniques applied to a dataset. The notebook includes data preprocessing, model training, hyperparameter tuning, and performance evaluation. It explores different approaches to optimize the model and visualize results.   
+This Jupyter Notebook focuses on multi-class classification for the MNIST dataset using Support Vector Machines (SVM). The first part applies GridSearchCV to tune the hyperparameters C and gamma for the RBF kernel, achieving a final test accuracy of 96.09%. The performance is analyzed using a confusion matrix, highlighting misclassification patterns. The second part compares One-vs-One (OvO) and One-vs-All (OvA) strategies, demonstrating that the OvA classifier slightly outperforms OvO with fewer misclassifications between certain digit pairs.     
 [📘Go to Exercise 4 Notebook](/task3main/exercise4.ipynb)
+
+
+## Task 4
+This Jupyter Notebook focuses on unsupervised learning techniques, specifically clustering and dimensionality reduction. It implements k-Means and Bisecting k-Means clustering to analyze datasets and evaluate cluster separation. Additionally, different dimensionality reduction techniques (PCA, MDS, and t-SNE) are applied to visualize and compare their effectiveness in feature space. The notebook also explores the impact of dataset complexity on clustering performance and provides detailed comparisons of different clustering algorithms, including k-Means, Hierarchical Clustering, and Bisecting k-Means. Multiple synthetic datasets are generated and used to ensure controlled experimentation.  
+[📘Go to Task 4 Notebook](/task4main/Task4.ipynb)
